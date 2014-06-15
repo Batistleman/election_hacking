@@ -39,4 +39,26 @@ Result:
 
     kktHIqSXueM0YqzZLuwYpgfJ8fMvO3NipMZhevSHqMM=,11,3,nl_BE,S,311,Af//AQ==,,o/sFYmxgdLHlf8hXVXz3oBbxDrvilEaIVh6wVhRyBFgtephrWANx0p3vgymsQN8yahgxfRLrT2hSQi/cem6YX6D5zFcqOdpTbWV9nj/8endCfZ3yyVM/zW+zDj8IPdqgGms7zDqIOm9NNkYQuO8WIQFjweLKJwzE9DFiJO15HSU=
     
-Some nice csv!
+Some 'nice' csv! (Is that Base64 padding?)
+
+## Expected output:
+
+* Lijst: 
+	* HIPHOP
+* Lijststemmen voor HIPHOP:
+	* Queen Latifah
+	* Shaggy
+	* Nelly
+	* Puff Daddy
+	* Akon
+	* Public Enemy
+	* Beastie Boys
+	* Cassidy
+	* Dr. Dre
+	* Fugees
+	* G-Unit
+	* Kurtis Blow
+	* Ludacris
+	* Missy Elliott
+	* Nas 
+	* Tribe Called Quest
