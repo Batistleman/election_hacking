@@ -1,0 +1,6 @@
+#! /usr/bin/env python
+
+import zlib
+
+data = open('bin_qr', 'rb').read()
+print(zlib.decompress(data))
