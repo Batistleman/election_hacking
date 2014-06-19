@@ -2,5 +2,5 @@
 
 import zlib
 
-data = open('bin_qr', 'rb').read()
+data = open('bin_qr_2014', 'rb').read()
 print(zlib.decompress(data))

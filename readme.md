@@ -6,9 +6,8 @@
 * Cleaned it up a bit with gimp
 * found a place where they mail the binary format http://online-barcode-reader.inliteresearch.com/default.aspx
 	* my qr code app was only encoding the acii chars: (http://pastebin.com/6fLjDLiB)
-* The result: http://pastebin.com/bUKSUew5
-
-      789c0dc7c97282300000d00f6a6622cd48c3810316285002452cdba5a34212565964cbd7db777b75fdb4ec214ce6821cd24164eebca63da30ea664f19157f624e3c5125a03212a90248040d7fc9d0c1002f43f8d42a805aa0ac0034e66da6e2c77ad86629e4489408fd36dd3c7a56c8cab1d71798df8793f99ec59f47c8c356f3bf468617b3b051edeaf9c6df4ec8e97771e0625bc17ad9c26b27e14e67df0f3fe728b23a5ab202ebafc936668df230245fc26f40adb3ff9c0bedae943e883edb78ae7d56930fb38b603b35a0bf7db5985a1e866e9f8d2d10a7fd517628a5246
+* The result for 2012: [hex_qr_2012](./hex_qr_2012)
+* The result for 2014: [hex_qr_2014](./hex_qr_2014)
 
 ## Data contents:
 
@@ -31,13 +30,17 @@ Code:
 
     import zlib
 
-    data = open('bin_qr', 'rb').read()
+    data = open('bin_qr_201x', 'rb').read()
     print(zlib.decompress(data))
     
     
-Result:
+Result 2012:
 
     kktHIqSXueM0YqzZLuwYpgfJ8fMvO3NipMZhevSHqMM=,11,3,nl_BE,S,311,Af//AQ==,,o/sFYmxgdLHlf8hXVXz3oBbxDrvilEaIVh6wVhRyBFgtephrWANx0p3vgymsQN8yahgxfRLrT2hSQi/cem6YX6D5zFcqOdpTbWV9nj/8endCfZ3yyVM/zW+zDj8IPdqgGms7zDqIOm9NNkYQuO8WIQFjweLKJwzE9DFiJO15HSU=
+
+Result 2014:
+
+    hJemtRUhKGPzxUM7x0rTyyG+O0qCocOCAtK+IKo3Rng=,38,10294,O,d54axnBIQv6YKrgQGQXPlA==,XrDH4P4PQvWgDSSEFrzBCw==,75,AgIAAA==,78,DwE=,97,HQI=,iQ6vdcfI2POSQRafRa4kU1sC+aPUwmrV+Dicd7mesmyAjP0oxu5GmbCQUCXQ/l/CTiq35gPqAHpfNAxIQGzlx3/2YVZfru2dRC/mBsksDr+Gd279KK6i3dr5XtmyLuQm/REH07O8yNr+i8jZdxWjpgEJXUHiEON8wzTlXGazkPQ=
     
 Some 'nice' csv! (Is that Base64 padding?)
 
