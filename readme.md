@@ -34,13 +34,41 @@ Code:
     print(zlib.decompress(data))
     
     
-Result 2012:
+### Result 2012:
 
     kktHIqSXueM0YqzZLuwYpgfJ8fMvO3NipMZhevSHqMM=,11,3,nl_BE,S,311,Af//AQ==,,o/sFYmxgdLHlf8hXVXz3oBbxDrvilEaIVh6wVhRyBFgtephrWANx0p3vgymsQN8yahgxfRLrT2hSQi/cem6YX6D5zFcqOdpTbWV9nj/8endCfZ3yyVM/zW+zDj8IPdqgGms7zDqIOm9NNkYQuO8WIQFjweLKJwzE9DFiJO15HSU=
 
-Result 2014:
+separated:
+
+	kktHIqSXueM0YqzZLuwYpgfJ8fMvO3NipMZhevSHqMM=
+	11
+	3
+	nl_BE
+	S
+	311
+	Af//AQ==
+
+	o/sFYmxgdLHlf8hXVXz3oBbxDrvilEaIVh6wVhRyBFgtephrWANx0p3vgymsQN8yahgxfRLrT2hSQi/cem6YX6D5zFcqOdpTbWV9nj/8endCfZ3yyVM/zW+zDj8IPdqgGms7zDqIOm9NNkYQuO8WIQFjweLKJwzE9DFiJO15HSU=
+
+### Result 2014:
 
     hJemtRUhKGPzxUM7x0rTyyG+O0qCocOCAtK+IKo3Rng=,38,10294,O,d54axnBIQv6YKrgQGQXPlA==,XrDH4P4PQvWgDSSEFrzBCw==,75,AgIAAA==,78,DwE=,97,HQI=,iQ6vdcfI2POSQRafRa4kU1sC+aPUwmrV+Dicd7mesmyAjP0oxu5GmbCQUCXQ/l/CTiq35gPqAHpfNAxIQGzlx3/2YVZfru2dRC/mBsksDr+Gd279KK6i3dr5XtmyLuQm/REH07O8yNr+i8jZdxWjpgEJXUHiEON8wzTlXGazkPQ=
+
+separated:
+
+    hJemtRUhKGPzxUM7x0rTyyG+O0qCocOCAtK+IKo3Rng=
+    38
+    10294
+    O
+    d54axnBIQv6YKrgQGQXPlA==
+    XrDH4P4PQvWgDSSEFrzBCw==
+    75
+    AgIAAA==
+    78
+    DwE=
+    97
+    HQI=
+    iQ6vdcfI2POSQRafRa4kU1sC+aPUwmrV+Dicd7mesmyAjP0oxu5GmbCQUCXQ/l/CTiq35gPqAHpfNAxIQGzlx3/2YVZfru2dRC/mBsksDr+Gd279KK6i3dr5XtmyLuQm/REH07O8yNr+i8jZdxWjpgEJXUHiEON8wzTlXGazkPQ=
     
 Some 'nice' csv! (Is that Base64 padding?)
 
