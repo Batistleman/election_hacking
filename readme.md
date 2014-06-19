@@ -69,27 +69,25 @@ separated:
     97
     HQI=
     iQ6vdcfI2POSQRafRa4kU1sC+aPUwmrV+Dicd7mesmyAjP0oxu5GmbCQUCXQ/l/CTiq35gPqAHpfNAxIQGzlx3/2YVZfru2dRC/mBsksDr+Gd279KK6i3dr5XtmyLuQm/REH07O8yNr+i8jZdxWjpgEJXUHiEON8wzTlXGazkPQ=
-    
-Some 'nice' csv! (Is that Base64 padding?)
 
-## Expected output:
+#### String 1:
 
-* Lijst: 
-	* HIPHOP
-* Lijststemmen voor HIPHOP:
-	* Queen Latifah
-	* Shaggy
-	* Nelly
-	* Puff Daddy
-	* Akon
-	* Public Enemy
-	* Beastie Boys
-	* Cassidy
-	* Dr. Dre
-	* Fugees
-	* G-Unit
-	* Kurtis Blow
-	* Ludacris
-	* Missy Elliott
-	* Nas 
-	* Tribe Called Quest
+Converting the (probably Base64) string to hex gives us the result:
+
+    8497A6B515212863F3C5433BC74AD3CB21BE3B4A82A1C38202D2BE20AA374678
+
+    or
+
+    1000010010010111101001101011010100010101001000010010100001100011111100111100010101000011001110111100011101001010110100111100101100100001101111100011101101001010100000101010000111000011100000100000001011010010101111100010000010101010001101110100011001111000
+
+265 bit... so this is probably SHA-256
+
+#### String 5:
+
+	MD5?
+
+#### String 6:
+
+	MD5?
+
+
